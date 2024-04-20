@@ -26,9 +26,9 @@ function disableInAppInstallPrompt() {
   installButton.setAttribute("hidden", "");
 }
 
-setTimeout(() => {
-  window.close();
-}, 1000);
+// setTimeout(() => {
+//   window.close();
+// }, 1000);
 // // main.js
 
 // window.addEventListener("appinstalled", () => {
